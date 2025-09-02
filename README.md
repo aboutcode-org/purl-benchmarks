@@ -92,13 +92,13 @@ The expected PURLs files are stored in the `expected-PURLs` directory.
 
 | Input name | Input version | Download URL | Expected PURLs filename | Notes |
 | :---- | :---- | :---- | :---- | :---- |
-| alpine | 3.22.1 | docker://alpine:3.22.1 | alpine-3.22.1.txt |  |
-| debian | trixie | docker://debian:trixie | debian-trixie.txt |  |
-| django | 5.2.5 | https://files.pythonhosted.org/packages/9d/6e/98a1d23648e0085bb5825326af17612ecd8fc76be0ce96ea4dc35e17b926/django-5.2.5-py3-none-any.whl | django-5.2.5-whl.txt |  |
-| fiber | 2.52.9 | https://github.com/gofiber/fiber/archive/refs/tags/v2.52.9.tar.gz | fiber-2.52.9.txt |  |
-| gin | 1.10.1 | https://github.com/gin-gonic/gin/archive/refs/tags/v1.10.1.tar.gz | gin-1.10.1.txt |  |
-| sentry | 25.7.0 | https://github.com/getsentry/sentry/archive/refs/tags/25.7.0.tar.gz | sentry-25.7.0.txt |  |
-| ubuntu | 24.04 | docker://ubuntu:noble | ubuntu-24.04.txt |  |
+| alpine | 3.22.1 | docker://alpine:3.22.1 | alpine-3.22.1.txt | An Alpine container image |
+| debian | trixie | docker://debian:trixie | debian-trixie.txt | A Debian container image |
+| django | 5.2.5 | https://files.pythonhosted.org/packages/py3/d/django/django-5.2.5-py3-none-any.whl | django-5.2.5-whl.txt | A Python package|
+| fiber | 2.52.9 | https://github.com/gofiber/fiber/archive/refs/tags/v2.52.9.tar.gz | fiber-2.52.9.txt | A go package |
+| gin | 1.10.1 | https://github.com/gin-gonic/gin/archive/refs/tags/v1.10.1.tar.gz | gin-1.10.1.txt | Another go package |
+| sentry | 25.7.0 | https://github.com/getsentry/sentry/archive/refs/tags/25.7.0.tar.gz | sentry-25.7.0.txt | A Python and Rust application |
+| ubuntu | 24.04 | docker://ubuntu:noble | ubuntu-24.04.txt | A Ubuntu container image |
 
 
 
