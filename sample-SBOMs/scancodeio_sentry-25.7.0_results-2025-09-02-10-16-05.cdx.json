@@ -1,0 +1,74 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:534894cd-00d2-4267-b1f2-fed052bd7a83",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "caf537bc-609a-481b-8af9-97528f1b9191",
+      "name": "sentry-25.7.0",
+      "type": "library"
+    },
+    "properties": [
+      {
+        "name": "notice",
+        "value": "Generated with ScanCode.io and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied.\nNo content created from ScanCode.io should be considered or used as legal advice.\nConsult an Attorney for any legal advice.\nScanCode.io is a free software code scanning tool from nexB Inc. and others\nlicensed under the Apache License version 2.0.\nScanCode is a trademark of nexB Inc.\nVisit https://github.com/nexB/scancode.io for support and download.\n"
+      }
+    ],
+    "timestamp": "2025-09-02T10:16:05.459435+00:00",
+    "tools": [
+      {
+        "name": "ScanCode.io",
+        "version": "35.3.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:npm/sentry@0.0.0?uuid=5c026388-7463-4f97-8858-9c72d5421e30",
+      "copyright": "",
+      "description": "",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "git://github.com/getsentry/sentry.git"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "LicenseRef-scancode-fsl-1.1-apache-2.0"
+        }
+      ],
+      "name": "sentry",
+      "properties": [
+        {
+          "name": "aboutcode:download_url",
+          "value": "https://registry.npmjs.org/sentry/-/sentry-0.0.0.tgz"
+        },
+        {
+          "name": "aboutcode:package_uid",
+          "value": "pkg:npm/sentry@0.0.0?uuid=5c026388-7463-4f97-8858-9c72d5421e30"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "JavaScript"
+        }
+      ],
+      "purl": "pkg:npm/sentry@0.0.0",
+      "type": "library",
+      "version": "0.0.0"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:npm/sentry@0.0.0?uuid=5c026388-7463-4f97-8858-9c72d5421e30"
+      ],
+      "ref": "caf537bc-609a-481b-8af9-97528f1b9191"
+    },
+    {
+      "ref": "pkg:npm/sentry@0.0.0?uuid=5c026388-7463-4f97-8858-9c72d5421e30"
+    }
+  ]
+}

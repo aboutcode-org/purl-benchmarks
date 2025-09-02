@@ -1,0 +1,90 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:a191eefc-e462-4ec0-aec0-3714334d73fd",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "3cce9755-fdcf-4e44-8731-e47cfdd00de9",
+      "name": "django-5.2.5-whl",
+      "type": "library"
+    },
+    "properties": [
+      {
+        "name": "notice",
+        "value": "Generated with ScanCode.io and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied.\nNo content created from ScanCode.io should be considered or used as legal advice.\nConsult an Attorney for any legal advice.\nScanCode.io is a free software code scanning tool from nexB Inc. and others\nlicensed under the Apache License version 2.0.\nScanCode is a trademark of nexB Inc.\nVisit https://github.com/nexB/scancode.io for support and download.\n"
+      }
+    ],
+    "timestamp": "2025-09-02T10:16:02.985495+00:00",
+    "tools": [
+      {
+        "name": "ScanCode.io",
+        "version": "35.3.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:pypi/django@5.2.5?uuid=4624e509-b768-4e44-94d2-8de33576f827",
+      "copyright": "",
+      "description": "A high-level Python web framework that encourages rapid development and clean, pragmatic design.\n======\nDjango\n======\n\nDjango is a high-level Python web framework that encourages rapid development\nand clean, pragmatic design. Thanks for checking it out.\n\nAll documentation is in the \"``docs``\" directory and online at\nhttps://docs.djangoproject.com/en/stable/. If you're just getting started,\nhere's how we recommend you read the docs:\n\n* First, read ``docs/intro/install.txt`` for instructions on installing Django.\n\n* Next, work through the tutorials in order (``docs/intro/tutorial01.txt``,\n  ``docs/intro/tutorial02.txt``, etc.).\n\n* If you want to set up an actual deployment server, read\n  ``docs/howto/deployment/index.txt`` for instructions.\n\n* You'll probably want to read through the topical guides (in ``docs/topics``)\n  next; from there you can jump to the HOWTOs (in ``docs/howto``) for specific\n  problems, and check out the reference (``docs/ref``) for gory details.\n\n* See ``docs/README`` for instructions on building an HTML version of the docs.\n\nDocs are updated rigorously. If you find any problems in the docs, or think\nthey should be clarified in any way, please take 30 seconds to fill out a\nticket here: https://code.djangoproject.com/newticket\n\nTo get more help:\n\n* Join the ``#django`` channel on ``irc.libera.chat``. Lots of helpful people\n  hang out there. `Webchat is available <https://web.libera.chat/#django>`_.\n\n* Join the `Django Discord community <https://chat.djangoproject.com>`_.\n\n* Join the community on the `Django Forum <https://forum.djangoproject.com/>`_.\n\nTo contribute to Django:\n\n* Check out https://docs.djangoproject.com/en/dev/internals/contributing/ for\n  information about getting involved.\n\nTo run Django's test suite:\n\n* Follow the instructions in the \"Unit tests\" section of\n  ``docs/internals/contributing/writing-code/unit-tests.txt``, published online at\n  https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/unit-tests/#running-the-unit-tests\n\nSupporting the Development of Django\n====================================\n\nDjango's development depends on your contributions.\n\nIf you depend on Django, remember to support the Django Software Foundation: https://www.djangoproject.com/fundraising/",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "https://pypi.org/pypi/Django/5.2.5/json"
+        },
+        {
+          "type": "distribution",
+          "url": "https://pypi.org/packages/source/D/Django/Django-5.2.5.tar.gz"
+        },
+        {
+          "type": "issue-tracker",
+          "url": "https://code.djangoproject.com/"
+        },
+        {
+          "type": "other",
+          "url": "https://github.com/django/django"
+        },
+        {
+          "type": "website",
+          "url": "https://pypi.org/project/Django"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "BSD-3-Clause"
+        }
+      ],
+      "name": "Django",
+      "properties": [
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://www.djangoproject.com/"
+        },
+        {
+          "name": "aboutcode:package_uid",
+          "value": "pkg:pypi/django@5.2.5?uuid=4624e509-b768-4e44-94d2-8de33576f827"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Python"
+        }
+      ],
+      "purl": "pkg:pypi/django@5.2.5",
+      "type": "library",
+      "version": "5.2.5"
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:pypi/django@5.2.5?uuid=4624e509-b768-4e44-94d2-8de33576f827"
+      ],
+      "ref": "3cce9755-fdcf-4e44-8731-e47cfdd00de9"
+    },
+    {
+      "ref": "pkg:pypi/django@5.2.5?uuid=4624e509-b768-4e44-94d2-8de33576f827"
+    }
+  ]
+}

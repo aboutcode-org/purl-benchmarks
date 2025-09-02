@@ -1,0 +1,78 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:b49f2d9b-7f0c-45d8-8479-9f91519803fc",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "bom-ref": "835bd57d-7623-4198-b289-7e760697bd6c",
+      "name": "gin-1.10.1",
+      "type": "library"
+    },
+    "properties": [
+      {
+        "name": "notice",
+        "value": "Generated with ScanCode.io and provided on an \"AS IS\" BASIS, WITHOUT WARRANTIES\nOR CONDITIONS OF ANY KIND, either express or implied.\nNo content created from ScanCode.io should be considered or used as legal advice.\nConsult an Attorney for any legal advice.\nScanCode.io is a free software code scanning tool from nexB Inc. and others\nlicensed under the Apache License version 2.0.\nScanCode is a trademark of nexB Inc.\nVisit https://github.com/nexB/scancode.io for support and download.\n"
+      }
+    ],
+    "timestamp": "2025-09-02T10:15:54.695502+00:00",
+    "tools": [
+      {
+        "name": "ScanCode.io",
+        "version": "35.3.0"
+      }
+    ]
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:golang/github.com/gin-gonic/gin?uuid=f9ca5e67-5123-4694-97b7-32d44181b406",
+      "copyright": "",
+      "description": "",
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/gin-gonic/gin.git"
+        },
+        {
+          "type": "website",
+          "url": "https://pkg.go.dev/github.com/gin-gonic/gin"
+        }
+      ],
+      "licenses": [
+        {
+          "expression": "MIT"
+        }
+      ],
+      "name": "gin",
+      "properties": [
+        {
+          "name": "aboutcode:homepage_url",
+          "value": "https://pkg.go.dev/github.com/gin-gonic/gin"
+        },
+        {
+          "name": "aboutcode:package_uid",
+          "value": "pkg:golang/github.com/gin-gonic/gin?uuid=f9ca5e67-5123-4694-97b7-32d44181b406"
+        },
+        {
+          "name": "aboutcode:primary_language",
+          "value": "Go"
+        }
+      ],
+      "purl": "pkg:golang/github.com/gin-gonic/gin",
+      "type": "library",
+      "version": ""
+    }
+  ],
+  "dependencies": [
+    {
+      "dependsOn": [
+        "pkg:golang/github.com/gin-gonic/gin?uuid=f9ca5e67-5123-4694-97b7-32d44181b406"
+      ],
+      "ref": "835bd57d-7623-4198-b289-7e760697bd6c"
+    },
+    {
+      "ref": "pkg:golang/github.com/gin-gonic/gin?uuid=f9ca5e67-5123-4694-97b7-32d44181b406"
+    }
+  ]
+}
