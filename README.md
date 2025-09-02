@@ -106,7 +106,7 @@ The expected PURLs files are stored in the `expected-PURLs` directory.
 
 Using the expected PURLs file list and an SBOM, follow these instructions to run a benchmark:
 
-https://scancodeio.readthedocs.io/en/latest/built-in-pipelines.html\#benchmark-purls-addon
+https://scancodeio.readthedocs.io/en/latest/built-in-pipelines.html#benchmark-purls-addon
 
 
 To run a benchmark you can use:
