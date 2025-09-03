@@ -1,0 +1,10 @@
+pkg:cargo/globset@0.4.15
+pkg:cargo/grep@0.3.2
+pkg:cargo/grep-cli@0.1.11
+pkg:cargo/grep-matcher@0.1.7
+pkg:cargo/grep-pcre2@0.1.8
+pkg:cargo/grep-printer@0.2.2
+pkg:cargo/grep-regex@0.1.13
+pkg:cargo/grep-searcher@0.1.14
+pkg:cargo/ignore@0.4.23
+pkg:cargo/ripgrep@14.1.1
