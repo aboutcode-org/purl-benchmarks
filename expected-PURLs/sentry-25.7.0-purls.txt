@@ -1,1 +1,0 @@
-pkg:npm/sentry@25.7.0
